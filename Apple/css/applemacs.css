@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    background-image: url('../Images/image1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+p1{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+h1{
+    color: orangered;
+    font-size: 30px;
+}
+p2{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.button{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: white;
+	margin-right: 15px;
+	border: solid;
+    margin-left: 150px;
+    margin-top: 120px;
+    background-color: red;
+}
+.button:hover{
+    background-color: blue;
+}
+.buttonn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: white;
+	margin-right: 15px;
+	border: solid;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: blue  ;
+
+}
+.buttonn:hover{
+    background-color: red;    
+}

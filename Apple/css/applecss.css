@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+body{
+    font-family: 'Flamenco', cursive;
+}
+.image1{
+    background-image: url('../Images/mweew.webp');
+    height: 100vh;
+    background-size: cover;
+
+}
+/* .image1:hover{
+    background-image: url('../Images/image2.jpg');
+    height: 100vh;
+    background-size: cover;
+
+} */
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    
+
+}
+
+.main-nav li{
+
+    list-style: none;
+}
+.main-nav a{
+    color: rgb(182, 59, 21);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 120%;
+    padding: 0 30px;
+    margin-right: 2px;
+}
+.main-nav li a{
+    /* padding: 10px 0; */
+}
+.main-nav li a:hover{
+    border-bottom: 2px solid #bf55ec;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    color:orangered;
+    font-size: 50px
+
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#e111f0; 
+    font-size: 40px;
+    padding-top: 20px;
+}
+.ma{
+    margin-right: 99px;
+}
+.image2{
+    background-image: url('../Images/gsmarena_019.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+h4{
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 120%; */
+    /* left: 35%; */
+    font-size: 50px;
+    color: rgb(23, 187, 86);
+    /* border-bottom: solid rgb(23, 187, 86); */
+}
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+    color: black;
+}
+.image3{
+    background-image: url('../Images/img3.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+h6{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    font-size: 50px;
+}
+h7{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.btn011{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* opacity: 95%; */
+
+}
+.button1{
+    /* display: inline-block; */
+
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: #b96e0c;
+	
+	border: solid;
+
+    background-color: transparent;
+
+    /* I DON'T KNOW TO GIVE SPACE BETWEEN BUTTONS SO USED MARGINS */
+
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.button1:hover{
+    background-color: whitesmoke;
+}
+.button2{
+    /* display: inline-block; */
+
+/* I DON'T KNOW TO GIVE SPACE BETWEEN BUTTONS SO USED MARGINS */
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: #b96e0c;
+
+	/* margin-left: 15px; */
+	border: solid;
+    opacity:120%;
+
+    background-color: transparent;
+}
+.button2:hover{
+    background-color: white;
+}
+.btn022{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.button3{
+    /* display: inline-block; */
+
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: orangered;
+	margin-right: 10px;
+	border: solid;
+    /* margin-left: 195px; */
+    /* margin-top: 300px; */
+    background-color: transparent;
+}
+.button3:hover{
+    background-color: white;
+}
+.button4{
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: red;
+	/* margin-right: 15px; */
+	border: solid;
+    /* margin-left: 280px; */
+    /* margin-top: 300px; */
+    background-color: transparent;
+}
+.button4:hover{
+    background-color: white;
+}
+.button5{
+
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: black;
+	border: solid;
+    margin-right: 10px;
+    background-color: white;
+    opacity: 50%;
+}
+.dogbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.button5:hover{
+    background-color: white;
+    opacity: 100%;
+}
+.button6{
+    margin-left: 10px;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: whitesmoke;
+
+	border: solid;
+
+    background-color: transparent;
+}
+.button6:hover{
+    background-color: black;
+}
+.colorchange{
+    animation: colorchangeanish 2s infinite;
+}
+@keyframes colorchangeanish{
+    0%{color: orangered}
+    25%{color: blue;}
+    50%{color: #bf55ec}
+    100%{color: slateblue}
+}
+.color{
+    animation: colorchangeranish 2s infinite;
+}
+@keyframes colorchangeranish{
+    0%{color: whitesmoke}
+    25%{color: blue}
+    50%{color: blueviolet}
+    100%{color: slateblue}
+}
+.image4{
+    background-image: url('../Images/iphone_se_photo_2.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+h8{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    position: relative;
+
+    font-size: 50px;
+}
+.colorbomber{
+    animation: colorbomberanish 2s infinite;
+}
+@keyframes colorbomberanish{
+    0%{color: black}
+    25%{color: blue}
+    50%{color: whitesmoke}
+    100%{color: blueviolet}
+}
+h9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 3%;
+    font-size: 40px;
+}
+.button7{
+
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    margin-right: 10px;
+    transition: background - color 0.2s, border 0.2s;
+	color: whitesmoke;
+	border: solid;
+
+    background-color: transparent;
+}
+.button7:hover{
+    background-color: black;
+}
+.uwu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.button8{
+    
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background - color 0.2s, border 0.2s;
+	color: black;
+	margin-left: 10px;
+	border: solid;
+    
+
+    background-color: transparent;
+
+}
+.button8:hover{
+    background-color: whitesmoke;
+}
+@media all and (max-width: 700px) {
+    .image1{
+        background-size: 50vh;
+    }
+}
+.buttombtns{
+    background-image: url('../Images/test.png');
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+ 
+}
+.btmbtn1{
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid;
+    border-radius: 40px;
+    padding: 124px 53px;
+    /* position: absolute; */
+    /* margin-top: 10px; */
+
+    
+    color: white;
+    margin-left: 10px;
+}
+/* .btmbtn1:hover{
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+} */
+.btmbtn2{
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid;
+    border-radius: 40px;
+    padding: 124px 53px;
+    /* position: absolute; */
+    /* margin-top: 10px; */
+
+    
+    color: white;
+    margin-left: 10px;
+}
+/* .clrbtn1:hover{
+    animation: clrbtn1 7s infinite;
+}
+@keyframes clrbtn1{
+    25%{
+        opacity: 0.3;
+        position: absolute;
+        margin-bottom: 2px;
+    }
+    50%{
+        opacity: 0.3;
+        position: absolute;
+        margin-bottom: 4px;
+    }
+} */
